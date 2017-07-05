@@ -3,6 +3,8 @@ package com.shipping;
 import java.util.Scanner;
 
 public class UI {
+	
+	//user profile
 	int option;
 	Boolean choice = true;
 	Integer product_id;
