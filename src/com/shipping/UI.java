@@ -3,6 +3,8 @@ package com.shipping;
 import java.util.Scanner;
 
 public class UI {
+	
+	//user profile
 	int option;
 	Boolean choice = true;
 	Integer product_id;
@@ -49,10 +51,10 @@ public class UI {
 				} else {
 
 					System.out.println("oops!..invalid details please check once again and try..");
-					menu();
+					main(null);
 				}
 			} else if (option == 2) {
-				productmapclass_obj.viewProducts();
+				ProductsMapClass.viewProducts();
 				ct.userMenu();
 
 			} else if (option == 3) {
