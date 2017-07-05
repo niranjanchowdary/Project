@@ -51,10 +51,10 @@ public class UI {
 				} else {
 
 					System.out.println("oops!..invalid details please check once again and try..");
-					menu();
+					main(null);
 				}
 			} else if (option == 2) {
-				productmapclass_obj.viewProducts();
+				ProductsMapClass.viewProducts();
 				ct.userMenu();
 
 			} else if (option == 3) {
